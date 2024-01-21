@@ -9,7 +9,6 @@ Este é um framework simples em Django para detecção de landmarks em imagens d
   - **migrations/**: Migrations do Django para o banco de dados.
   - **tests/**: Testes para o aplicativo.
 - **manage.py**: Script de gerenciamento do Django.
-- **README.md**: Este arquivo de documentação.
 
 ## Configuração e Execução
 
