@@ -1,0 +1,23 @@
+<!-- hand_detector/templates/select_method.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Method</title>
+</head>
+<body>
+    <h1>Select Detection Method</h1>
+    <form method="get" action="{% url 'detect_hand_landmarks' %}">
+        <label for="strategy">Select Detection Method:</label>
+        <select name="strategy" id="strategy">
+            <option value="media_pipe">MediaPipe Hand Detector</option>
+            <option value="open_pose">OpenPose Hand Detector</option>
+        </select>
+        <br>
+        <input type="submit" value="Detect Hand Landmarks">
+    </form>
+</body>
+</html>
+
